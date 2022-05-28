@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 70px 0px;
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* Header Start Here */
+#header {
+  background-color: #1f2937;
+}
+
+#header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu a {
+  padding-left: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+/* Header End Here */
+
+/* Hero Section Start Here */
+#hero {
+  background-color: #1f2937;
+}
+
+#hero .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-caption,
+.hero-image {
+  flex: 1;
+}
+
+.hero-caption h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  width: 80%;
+}
+
+.hero-caption p {
+  color: #e5e7eb;
+  font-size: 18px;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.hero-caption button {
+  background-color: #3882f6;
+  padding: 10px 30px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+/* Hero Section End Here */
+
+/* Random Section Start Here */
+#random {
+  background-color: #ffffff;
+}
+
+#random .container {
+  max-width: 800px;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.random-content {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.random-column {
+  flex: 1;
+}
+
+.random-column img {
+  width: 100%;
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+}
+
+.random-column p {
+  text-align: center;
+  font-size: 16px;
+  color: #1f2937;
+  padding: 5px 0 0 0;
+}
+/* Random Section End Here */
+
+/* Quote Section Start Here */
+#quote {
+  background-color: #e5e7eb;
+}
+
+#quote .container {
+  max-width: 800px;
+}
+
+.quote-content {
+  text-align: right;
+}
+
+.quote-content p {
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+  text-align: left;
+}
+
+.quote-content span {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* Quote Section End Here */
+
+/* Contact Section Start Here */
+#contact {
+  background-color: #ffffff;
+}
+
+#contact .container {
+  background-color: #3882f6;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.contact-content {
+  padding: 50px 0;
+  margin: 70px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #f9faf8;
+}
+
+.contact-content P {
+  font-weight: lighter;
+}
+
+.contact-content button {
+  background-color: transparent;
+  padding: 10px 30px;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  cursor: pointer;
+}
+/* Contact Section End Here */
+
+/* Footer Section Start Here */
+#footer {
+  background-color: #1f2937;
+}
+
+#footer .container {
+  padding: 40px 0px;
+}
+
+.footer-content p {
+  color: #f9faf8;
+  text-align: center;
+}
+/* Footer Section End Here */
